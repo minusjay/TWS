@@ -59,6 +59,9 @@ body {
 /*########################
 	bootstrap
 ##########################*/
+.navbar > .container .navbar-brand {
+  padding: 13px 15px;
+}
 .navbar-default {
   border-color: #9acc13;
   border-bottom-width: 4px;
