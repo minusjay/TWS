@@ -27,6 +27,7 @@ body {
 @media (max-width: 425px) {
   .body .hero {
     height: 137px;
+	padding:0;
   }
 }
 .body .hero .hero-message {
