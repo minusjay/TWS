@@ -15,6 +15,7 @@ h1{
 	text-transform: uppercase;
 	font-size: 34px;
 	margin-bottom: 25px;
+	color:@green;
 }
 p{
 	font-size: 18px;
@@ -24,18 +25,36 @@ p{
 	custom
 ##########################*/
 .navbar-custom{
-	padding-top:20px;
+	padding-top:0;
 
+	.navbar-header{
+		.navbar-brand{
+			    padding: 0px 15px;
+			    img{
+			    	height: 36px;
+			    	margin-top: 10px;
+			    }
+		}
+	}
+	.navbar-toggle{
+	    
+	    border-color:#ddd;
+
+	    .icon-bar{
+	    	background-color: #888;
+	    	
+	    }
+	}
 	.navbar-collapse{
 		ul{
 			&.navbar-nav{
-				margin-top: 20px;
+				margin-top: 10px;
 				font-size: 18px;
 				a{
 					color:#fff;
 					&:hover, &:active{
 						background: transparent;
-						color:#2a6496;
+						color:@green;
 					}
 				}
 			}
@@ -49,6 +68,15 @@ p{
 	text-align: center;
 	&:last-child{
 		margin-bottom: 0;
+	}
+
+	&.breaker{
+		background: url(../img/pic3.jpg) no-repeat center;
+    	background-size: cover;
+	    -webkit-background-size: cover;
+	    -o-background-size: cover;
+	    -ms-background-size: cover;
+	    -moz-background-size: cover;
 	}
 }
 
@@ -66,9 +94,55 @@ p{
     }	
 }
 
+.team{
+	.team-img{
+		background: #ddd;
+		min-height: 200px;
+		position: relative;
+		.member-details{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background: @green;
+			opacity: .5;
+			color: #fff;
+			font-family: verdana;
+
+			.name{
+				font-size: 25px;
+			}
+			.title{
+				font-size: 18px;
+			}
+		}
+	}
+}
+
+.services{
+	background: url(../img/pic8.jpg) no-repeat top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 770px;	
+}
+
+.work{
+
+}
+
+.portfolio{
+	background: #ddd;
+	margin-bottom: 0;
+	padding-bottom: 50px;
+}
+
 .contact{
 	background: #293b3f;
     padding: 50px 0;
+    margin-top: 0;
     color:#fff;
 
     input, textarea{

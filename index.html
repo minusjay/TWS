@@ -27,12 +27,16 @@
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
 	          </button>
-	          <a class="navbar-brand" href="#"><img src="img/traceLogo.png" /></a>
+	          <a class="navbar-brand" href="#"><img class="img" src="img/subsideIT.png" /></a>
 	        </div>
 	        <div id="navbar" class="navbar-collapse collapse">
 	          <ul class="nav navbar-nav">
 	            <li class="active"><a href="#">Home</a></li>
 	            <li><a href="#about">About</a></li>
+	            <li><a href="#team">Team</a></li>
+	            <li><a href="#services">Services</a></li>
+	            <li><a href="#work">Work</a></li>
+	            <li><a href="#portfolio">Portfolio</a></li>
 	            <li><a href="#contact">Contact</a></li>
 	          </ul>
 	        </div><!--/.nav-collapse -->
@@ -88,32 +92,40 @@
 		<div class="team section" id="team">
 			<div class="container">
 				<div class="row">
-					<h1></h1>
+					<h1>Our Team</h1>
 					<p></p>
 				</div>
 				<div class="row">
-					<div class="col-sm-6 team-img member-1">
-						<div class="member-details">
-							<p class="name"></p>
-							<p class="title"></p>
+					<div class="col-sm-6">
+						<div class="team-img member-1">
+							<div class="member-details">
+								<p class="name">Thomas Welch</p>
+								<p class="title">Super Awesome Cool Title</p>
+							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 team-img member-2">
-						<div class="member-details">
-							<p class="name"></p>
-							<p class="title"></p>
+					<div class="col-sm-6">
+						<div class="team-img member-2">
+							<div class="member-details">
+								<p class="name"></p>
+								<p class="title"></p>
+							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 team-img member-3">
-						<div class="member-details">
-							<p class="name"></p>
-							<p class="title"></p>
+					<div class="col-sm-6">
+						<div class="team-img member-3">
+							<div class="member-details">
+								<p class="name"></p>
+								<p class="title"></p>
+							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 team-img member-4">
-						<div class="member-details">
-							<p class="name"></p>
-							<p class="title"></p>
+					<div class="col-sm-6">
+						<div class="team-img member-4">
+							<div class="member-details">
+								<p class="name"></p>
+								<p class="title"></p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -198,9 +210,21 @@
 			</div>
 		</div>
 			
-		
 
-		<script src="js/jquery.2.1.4.min.js"></script>
+		<script src="js/jquery-1.10.1.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+
+		<script>
+			//just for now - move after testing
+				//on scroll add bg to navbar-custom
+				$(window).scroll(function() {
+					if($(window).scrollTop() < 75){
+						$('.navbar-custom').stop().animate({backgroundColor: "transparent"}, 1000 );
+					} else {
+						$('.navbar-custom').stop().animate({backgroundColor: "#333"}, 1000 );
+					}
+				});
+		</script>
 	</body>
 </html>	
