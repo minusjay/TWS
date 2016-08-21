@@ -1,0 +1,45 @@
+/*** screen ≈ TABLET  ***/
+		@media (min-width:768px) {}
+
+/*** screen ≈ desktop  ***/
+		@media (min-width: 992px) {
+
+			.services{
+				.services-left, .services-right, .ser-bottom {
+					p{
+						margin-top: 35px;
+					}
+				}
+				.services-left{
+					span:after{
+					    content: ' ';
+					    width: 235px;
+					    height: 1px;
+					    left: 100%;
+					    background: #a0a0a0;
+					    position: absolute;
+					    top: 45%;
+					}
+				}
+				.services-right{
+					span:after{
+						content: ' ';
+					    width: 237px;
+					    height: 1px;
+					    right: 100%;
+					    background: #a0a0a0;
+					    position: absolute;
+					    top: 45%;
+					}
+				}
+				.service-bottom{
+					margin: 60px auto 0;
+				}
+				.top-push{
+					margin-top: 90px;
+				}
+			}
+		}
+
+/*** screen ≈ widescreen  ***/
+		@media (min-width: 1200px){}
