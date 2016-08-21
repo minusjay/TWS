@@ -1,5 +1,54 @@
 /*** screen ≈ TABLET  ***/
-		@media (min-width:768px) {}
+		@media (min-width:768px) {
+			.navbar-custom{
+				.navbar-collapse{
+					ul{
+						&.navbar-nav{
+							li{
+								border-bottom: none;
+							}
+						}
+					}
+				}
+			}
+
+			.team{
+				.top-push{
+					margin-top: 40px;
+				}
+				.team-img{
+					margin-bottom: 0;
+				}
+			}
+
+			.work{
+				.wel-right {
+				    float: right;
+				    width: 57%;
+				    padding-top: 50px;
+				}
+				
+				.wel-left {
+				    width: 50%;
+				    background: #fff;
+				    padding: 41px 12px;
+				    position: absolute;
+				    left: 0%;
+				    top: 0%;
+				    z-index: 1;
+				    box-shadow: 0px 0px 20px 0px #CCC;
+				    border-bottom: 3px solid #FF9036;
+				}
+				
+				.where-right {
+				    width: 74%;
+				    padding: 0;
+				    float: none;
+				    margin: 0 auto 70px;
+				}
+				
+			}
+		}
 
 /*** screen ≈ desktop  ***/
 		@media (min-width: 992px) {
