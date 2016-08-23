@@ -63,7 +63,7 @@ p {
   margin-bottom: 0;
 }
 .section.breaker {
-  background: url(../img/pic3.jpg) no-repeat center;
+  background: url(../img/subsideit_homepage_philosophy.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -71,11 +71,8 @@ p {
   -moz-background-size: cover;
   padding: 50px 0;
 }
-.section.breaker p {
-  color: #fff;
-}
 .banner {
-  background: url(../img/pic5.jpg) no-repeat top;
+  background: url(../img/subsideit_homepage_hero.jpg) no-repeat top;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -118,8 +115,8 @@ p {
   padding: 25px 0 0 0;
 }
 .team .team-img {
-  background: url(../img/thomas.jpg) no-repeat 0 0;
-  background-size: cover;
+  background: url(../img/thomas.jpg) no-repeat center 0;
+  background-size: contain;
   min-height: 262px;
   position: relative;
   margin-bottom: 10px;
@@ -140,7 +137,7 @@ p {
   font-size: 18px;
 }
 .services {
-  background: url(../img/pic8.jpg) no-repeat top;
+  background: url(../img/subsideit_homepage_services.jpg) no-repeat top;
   background-size: cover;
   padding: 100px 0;
   -webkit-background-size: cover;
@@ -203,7 +200,7 @@ p {
   width: 50%;
 }
 .work .content-item.item-image1 {
-  background: url(../img/w2.jpg) no-repeat 0px 0px;
+  background: url(../img/subsideit_homepage_project_understanding.jpg) no-repeat 0px 0px;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -216,7 +213,7 @@ p {
   width: 100%;
 }
 .work .content-item.item-image2 {
-  background: url(../img/w1.jpg) no-repeat 0px 0px;
+  background: url(../img/subsideit_homepage_research_planning.jpg) no-repeat 0px 0px;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -382,6 +379,16 @@ p {
 /*########################
 	media
 ##########################*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-custom .navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+  }
+  .navbar-custom .navbar-collapse {
+    margin-top: 44px;
+  }
+}
 /*** screen ≈ TABLET  ***/
 @media (min-width: 768px) {
   .navbar-custom .navbar-collapse ul.navbar-nav li {
@@ -392,6 +399,8 @@ p {
   }
   .team .team-img {
     margin-bottom: 0;
+    background-position: 0 0;
+    background-size: cover;
   }
   .work .wel-right {
     float: right;
