@@ -306,37 +306,37 @@
 						<p>Add contact message</p>
 
 						<address>
-							<strong>Trace Tech Shop, Inc.</strong><br>
-							1355 Market Street, Suite 900<br>
-							Wilmington, DE 19802<br>
-							<abbr title="Phone">P:</abbr> (123) 456-7890
+							<strong>SubSide IT, Inc.</strong><br>
+							P.O. Box 12345<br>
+							Newark, DE 19702<br>
+							<abbr title="Phone">P:</abbr> (302) 507-9674<br>
+							<a href="mailto:info@subsideit.com">info@subsideit.com</a>
 						</address>
 
 						<address>
-							<strong>Full Name</strong><br>
-							<a href="mailto:#">first.last@tracetechshop.com</a>
+							<!-- <strong></strong><br> -->
 						</address>
 					</div>
 				</div>
 				<div class="row">
-					<form action="" method="POST" role="form">
+					<form action="MAILTO:jasonvitagliano@outlook.com" method="POST" enctype="text/plain" role="form">
 						<div class="col-sm-6">
 							<div class="form-group">
 								<label class="sr-only" for="">Name</label>
-								<input type="text" class="form-control" id="name" placeholder="Name">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 							</div>
 							<div class="form-group">
 								<label class="sr-only" for="">email</label>
-								<input type="text" class="form-control" id="email" placeholder="email">
+								<input type="text" class="form-control" id="email" name="email" placeholder="email">
 							</div>
 							<div class="form-group">
 								<label class="sr-only" for="">number</label>
-								<input type="phone" class="form-control" id="number" placeholder="number">
+								<input type="phone" class="form-control" id="number" name="number" placeholder="number">
 							</div>
 							
 						</div>
 						<div class="col-sm-6">
-							<textarea class="form-control" rows="3" placeholder="message"></textarea>
+							<textarea class="form-control" rows="3" placeholder="message" name="message" id="message"></textarea>
 							<p></p>
 							<button type="submit" class="btn btn-primary">Submit</button>
 						</div>
