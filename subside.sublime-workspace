@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"secondar",
+				"secondary-darkest"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
 				"border",
 				"border"
 			],
@@ -46,10 +54,6 @@
 			[
 				"padding",
 				"padding"
-			],
-			[
-				"background",
-				"background"
 			],
 			[
 				"Fut",
@@ -510,10 +514,6 @@
 			[
 				"tcc4_",
 				"tcc4_downArrow"
-			],
-			[
-				"icon",
-				"iconRow"
 			]
 		]
 	},
@@ -576,11 +576,12 @@
 	},
 	"file_history":
 	[
-		"/Users/adavisso/Documents/Trace/TWS/less/style.less",
 		"/Users/adavisso/Documents/Trace/TWS/index.html",
+		"/Users/adavisso/Google Drive/SubSideIT/website/colors/less_export.less",
 		"/Users/adavisso/Documents/Trace/TWS/less/breakpoint.less",
-		"/Users/adavisso/Library/Application Support/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
 		"/Users/adavisso/Documents/Trace/TWS/css/style.css",
+		"/Users/adavisso/Documents/Trace/TWS/less/style.less",
+		"/Users/adavisso/Library/Application Support/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
 		"/Users/adavisso/Documents/Trace/TWS/css/breakpoint.css",
 		"/Users/adavisso/Google Drive/SubSideIT/website/colors/css_export.css",
 		"/Users/adavisso/Google Drive/SubSideIT/website/logo/HighRes/subsideIT.svg",
@@ -702,8 +703,7 @@
 		"/Users/adavisso/Desktop/AdrienneDavisson/TCC/emails/TCC/Prospect/052015May/20150521 Prospect Email MDay.html",
 		"/Users/adavisso/Documents/workspace-sts-3.5.1.RELEASE/sbu-united/store/src/main/webapp/WEB-INF/jsp/themes/tcc4/pages/sales_funnel/questions.jsp",
 		"/Users/adavisso/Documents/workspace-sts-3.5.1.RELEASE/sbu-united/store/src/main/webapp/WEB-INF/jsp/themes/tcc4/baseLayout.jsp",
-		"/Users/adavisso/Documents/workspace-sts-3.5.1.RELEASE/sbu-united/shared-incorporate-ui/less/incorporate_style_guide.less",
-		"/Users/adavisso/Documents/workspace-sts-3.5.1.RELEASE/sbu-united/store/src/main/less/sources/themes/tcc4/styles.less"
+		"/Users/adavisso/Documents/workspace-sts-3.5.1.RELEASE/sbu-united/shared-incorporate-ui/less/incorporate_style_guide.less"
 	],
 	"find":
 	{
@@ -732,6 +732,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#FF9036",
+			"h4",
+			"#9acc13",
+			"#05BEF6",
+			"color:@secondary",
+			"#05BEF6",
+			"#464646",
+			"work-right",
+			"333333",
+			"color-",
+			"color",
+			"#",
+			"@brown",
+			"@gray",
+			"@brown",
+			"@green",
 			"again",
 			"and again",
 			"http://image.email.incorporate.com/lib/fefa137275670d/m/1",
@@ -843,23 +859,7 @@
 			"default-two-column",
 			"list-order-progress",
 			"form-control",
-			"form",
-			"widget_message_free_guide_entityWidget",
-			"The Company Corporation",
-			"“",
-			"”",
-			"The Company Corporation",
-			"Company Corporation",
-			"The Company Corporation",
-			" & ",
-			"<li>\n",
-			"866-606-3043",
-			"ready_to_form_ppc",
-			"inc_guide_download_page",
-			"how_to_incorporate_guide",
-			"844-234-4507",
-			"nikk",
-			"Applebaum"
+			"form"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -963,6 +963,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 279.0,
+	"side_bar_width": 145.0,
 	"status_bar_visible": true
 }
